@@ -1,0 +1,52 @@
+﻿@model BeestjeOpJeFeestje.Models.CreateAnimalViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>AnimalEdit</h1>
+
+<h4>Animal</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="animal.Id" />
+            <div class="form-group">
+                <label asp-for="animal.Type" class="control-label"></label>
+                <input asp-for="animal.Type" class="form-control" />
+                <span asp-validation-for="animal.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="animal.Price" class="control-label"></label>
+                <input asp-for="animal.Price" class="form-control" />
+                <span asp-validation-for="animal.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="animal.ImageLink" class="control-label"></label>
+                <select asp-for="animal.ImageLink" class="form-control">
+                    @if (Model.imageNames.Count != 0)
+                    {
+                        @foreach (var imageName in Model.imageNames)
+                        {
+                            <option value="@imageName">@imageName</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="animal.ImageLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

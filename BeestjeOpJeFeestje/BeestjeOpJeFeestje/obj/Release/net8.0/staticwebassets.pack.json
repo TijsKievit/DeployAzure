@@ -1,0 +1,229 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\aap.jpg",
+      "PackagePath": "staticwebassets\\Images\\aap.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\eend.jpg",
+      "PackagePath": "staticwebassets\\Images\\eend.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\ezel.jpg",
+      "PackagePath": "staticwebassets\\Images\\ezel.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\hond.jpg",
+      "PackagePath": "staticwebassets\\Images\\hond.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\ijsbeer.jpg",
+      "PackagePath": "staticwebassets\\Images\\ijsbeer.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\kameel.jpg",
+      "PackagePath": "staticwebassets\\Images\\kameel.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\koe.jpg",
+      "PackagePath": "staticwebassets\\Images\\koe.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\kuiken.jpg",
+      "PackagePath": "staticwebassets\\Images\\kuiken.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\leeuw.jpg",
+      "PackagePath": "staticwebassets\\Images\\leeuw.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\olifant.jpg",
+      "PackagePath": "staticwebassets\\Images\\olifant.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\pinguïn.jpg",
+      "PackagePath": "staticwebassets\\Images\\pinguïn.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\slang.jpg",
+      "PackagePath": "staticwebassets\\Images\\slang.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\t-rex.jpg",
+      "PackagePath": "staticwebassets\\Images\\t-rex.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\unicorn.jpg",
+      "PackagePath": "staticwebassets\\Images\\unicorn.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\zebra.jpg",
+      "PackagePath": "staticwebassets\\Images\\zebra.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\Images\\zeehond.jpg",
+      "PackagePath": "staticwebassets\\Images\\zeehond.jpg"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\studie informatica\\Prog 6\\Github\\prog6-eindopdracht-2324-tijs_kievit\\BeestjeOpJeFeestje\\BeestjeOpJeFeestje\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.BeestjeOpJeFeestje.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.BeestjeOpJeFeestje.props",
+      "PackagePath": "build\\BeestjeOpJeFeestje.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BeestjeOpJeFeestje.props",
+      "PackagePath": "buildMultiTargeting\\BeestjeOpJeFeestje.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.BeestjeOpJeFeestje.props",
+      "PackagePath": "buildTransitive\\BeestjeOpJeFeestje.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

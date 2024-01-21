@@ -1,0 +1,44 @@
+﻿@model BeestjeOpJeFeestje.Models.AnimalDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>AnimalDetails</h1>
+
+<div>
+    <h4>Animal</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.animal.Type)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.animal.Type)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.animal.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.animal.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.animal.ImageLink)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.animal.ImageLink)
+        </dd>
+    </dl>
+    <h4>Boekingen van dit beestje:</h4>
+    @foreach(var booking in Model.bookings)
+    {
+        <form id="loginForm" asp-action="AnimalToBooking" method="post">
+            <input type="hidden" asp-for="@Model.selectedBookingId" value="@booking.Id" />
+            <button type="submit" class="nav-link text-dark">@booking.Date.ToString("yyyy-MM-dd")</button>
+        </form>
+    }
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.animal.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,36 @@
+﻿@model BeestjeOpJeFeestje.Models.ConfirmBookingViewModel
+
+@{
+    ViewData["Title"] = "ConfirmBooking";
+}
+
+<h1>ConfirmBooking</h1>
+
+<div>
+    <h4>Booking</h4>
+    <hr />
+    <div>
+        <h1>Contact gegevens</h1>
+        <h4>@Model.booking.Name</h4>
+        <h4>@Model.booking.Adres</h4>
+        <h4>@Model.booking.Email</h4>
+        <h4>Prijs / Korting:</h4>
+        @foreach(var animal in Model.animals)
+        {
+            <h4 class="list-item">@animal.Name: @animal.Price€</h4>
+        }
+        @foreach (var discount in Model.discounts)
+        {
+            <h4 class="list-item">@discount.Type: @discount.Percentage%</h4>
+        }
+        <h4>Totale Korting: @Model.totalDiscount%</h4>
+        <h4>Totale Prijs: @Model.totalPrice.ToString("0.00")€</h4>
+
+
+        <form id="ConfirmBooking" asp-action="ConfirmBooking" method="post">
+            <input type="hidden" asp-for="booking.Id" value="@Model.booking.Id"/>
+            <button type="submit" class="nav-link text-dark">Bevesting je boeking</button>
+        </form>
+    </div>
+</div>
+

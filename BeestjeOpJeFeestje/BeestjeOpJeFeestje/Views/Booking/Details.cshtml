@@ -1,0 +1,72 @@
+﻿@model BeestjeOpJeFeestje.Models.ConfirmBookingViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Booking</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.booking.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.booking.Date.ToString("yyyy-MM-dd")
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.booking.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.booking.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.booking.Adres)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.booking.Adres)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.booking.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.booking.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.booking.PhoneNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.booking.PhoneNumber)
+        </dd>
+        @foreach (var animal in Model.animals)
+        {
+            <dt class="col-sm-2">
+                @animal.Name
+            </dt>
+            <dd class="col-sm-10">
+                @animal.Price€
+            </dd>
+        }
+        @foreach (var discount in Model.discounts)
+        {
+            <dt class="col-sm-2">
+                @discount.Type
+            </dt>
+            <dd class="col-sm-10">
+                @discount.Percentage%
+            </dd>
+        }
+        <dt class="col-sm-2">
+            Totale prijs
+        </dt>
+        <dd class="col-sm-10">
+            @Model.totalPrice€
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Terug naar boekinglijst</a>
+</div>

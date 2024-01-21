@@ -1,0 +1,91 @@
+﻿@model BeestjeOpJeFeestje.Models.UserInfoViewModel
+
+@{
+    ViewData["Title"] = "UserInfo";
+}
+
+<h1>UserInfo</h1>
+
+<h4>Booking</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @if (!User.IsInRole("Boer") && !User.IsInRole("Klant"))
+        {
+            <form asp-action="UserInfo">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="booking.Id" />
+                <input type="hidden" asp-for="booking.Date" />
+                <input type="hidden" asp-for="booking.UserId"/>
+            <div class="form-group">
+                    <label asp-for="booking.Name" class="control-label"></label>
+                    <input asp-for="booking.Name" class="form-control" />
+                    <span asp-validation-for="booking.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <label asp-for="booking.Adres" class="control-label"></label>
+                    <input asp-for="booking.Adres" class="form-control" />
+                    <span asp-validation-for="booking.Adres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <label asp-for="booking.Email" class="control-label"></label>
+                    <input asp-for="booking.Email" class="form-control" />
+                    <span asp-validation-for="booking.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <label asp-for="booking.PhoneNumber" class="control-label"></label>
+                    <input asp-for="booking.PhoneNumber" class="form-control" />
+                    <span asp-validation-for="booking.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+            </form>
+            <div>
+                <form id="loginForm" asp-action="LoginRedirect" method="post">
+                    <input type="hidden" asp-for="booking.Id" />
+                    <button type="submit" class="nav-link text-dark">Login</button>
+                </form>
+            </div>
+        }
+        else
+        {
+            <form asp-action="UserInfo">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="booking.Id" />
+                <input type="hidden" asp-for="booking.Date" />
+                <div class="form-group">
+                    <label asp-for="booking.Name" class="control-label"></label>
+                    <input asp-for="booking.Name" class="form-control" value="@Model.user.Name" />
+                    <span asp-validation-for="booking.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="booking.Adres" class="control-label"></label>
+                    <input asp-for="booking.Adres" class="form-control" value="@Model.user.Adres" />
+                    <span asp-validation-for="booking.Adres" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="booking.Email" class="control-label"></label>
+                    <input asp-for="booking.Email" class="form-control" value="@Model.user.Email" />
+                    <span asp-validation-for="booking.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="booking.PhoneNumber" class="control-label"></label>
+                    <input asp-for="booking.PhoneNumber" class="form-control" value="@Model.user.PhoneNumber" />
+                    <span asp-validation-for="booking.PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        }
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

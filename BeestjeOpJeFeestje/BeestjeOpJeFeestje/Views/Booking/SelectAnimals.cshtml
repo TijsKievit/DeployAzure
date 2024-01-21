@@ -1,0 +1,57 @@
+﻿@model BeestjeOpJeFeestje.Models.SelectAnimalsViewModel
+
+@{
+    ViewData["Title"] = "SelectAnimals";
+}
+
+<h1>SelectAnimals</h1>
+
+<h4>Booking</h4>
+<hr />
+<div>
+    <div >
+        <form class="bodyEdit" asp-action="SelectAnimals" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input asp-for="booking.Id" value="@Model.booking.Id" hidden />
+            <input asp-for="card" hidden />
+            <div class="containerEdit">
+                @foreach (var animal in Model.availableAnimals)
+                {
+                    <div class="item">
+                        <h4>@animal.Name</h4>
+
+                        @if (Model.bookedAnimalIds != null && Model.bookedAnimalIds.Contains(animal.Id))
+                        {
+                            <input type="checkbox" name="selectedAnimalIds" value="@animal.Id" disabled />
+                            <br />
+                        }else
+                        @if (Model.selectedAnimalIds != null && Model.selectedAnimalIds.Contains(animal.Id))
+                        {
+                            <input type="checkbox" name="selectedAnimalIds" value="@animal.Id" checked />
+                            <br />
+                        }
+                        else
+                        {
+                            <input type="checkbox" name="selectedAnimalIds" value="@animal.Id" />
+                        
+                            <br />
+                        }
+                        <img src="~/images/@animal.ImageLink" alt="Een aap" class="selectImage">
+                        <h4>€@animal.Price</h4>
+
+                    </div>
+                }
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
