@@ -11,6 +11,5 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>BeestjeOpJeFeestje.Data.BeestjeOpJeFeestjeContext</WebStackScaffolding_DbContextTypeFullName>
-    <NameOfLastUsedPublishProfile>BeestjeVoorJeFeestje - Web Deploy4</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

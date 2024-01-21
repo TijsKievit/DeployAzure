@@ -13,11 +13,6 @@
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Name" />
-            <div class="form-group">
-                <label asp-for="Card" class="control-label"></label>
-                <input asp-for="Card" class="form-control" />
-                <span asp-validation-for="Card" class="text-danger"></span>
-            </div>
             <input type="hidden" asp-for="Email" />
             <input type="hidden" asp-for="NormalizedEmail" />
             <input type="hidden" asp-for="PhoneNumber" />
@@ -29,7 +24,15 @@
             <input type="hidden" asp-for="ConcurrencyStamp" />
             <input type="hidden" asp-for="LockoutEnabled"/>
             <input type="hidden" asp-for="Adres" />
-
+            <div class="form-group">
+                <label asp-for="Card" class="control-label"></label>
+                <select asp-for="Card" class="form-control">
+                    <option value="zilveren">zilveren</option>
+                    <option value="gouden">gouden</option>
+                    <option value="platina">platina</option>
+                </select>
+                <span asp-validation-for="Card" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>

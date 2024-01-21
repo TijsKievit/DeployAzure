@@ -4,9 +4,9 @@
     ViewData["Title"] = "SelectAnimals";
 }
 
-<h1>SelectAnimals</h1>
+<h1>BeestjesSelectie</h1>
 
-<h4>Booking</h4>
+<h4>Selecteer de beestjes die je aan je boeking wilt toevoegen:</h4>
 <hr />
 <div>
     <div >
@@ -44,13 +44,11 @@
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
+            <h4>De boekings datum: @Model.booking.Date</h4>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

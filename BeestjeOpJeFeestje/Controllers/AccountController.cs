@@ -144,7 +144,7 @@ namespace BeestjeOpJeFeestje.Controllers
             if (ModelState.IsValid)
             {
                 var password = GenerateRandomPassword(10);
-                var user = new User { UserName = Input.Email, Email = Input.Email , Name = Input.Name, Adres = Input.Adres};
+                var user = new User { UserName = Input.Email, Email = Input.Email , Name = Input.Name, Adres = Input.Adres, PhoneNumber = Input.PhoneNumber};
                 var result = await _userManager.CreateAsync(user, password);
                 if (result.Succeeded)
                 {
